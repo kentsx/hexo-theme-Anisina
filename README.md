@@ -2,12 +2,20 @@
 
 <a href="https://haojen.github.io/2017/05/09/Anisina-%E4%B8%AD%E6%96%87%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/">点击查看中文使用教程</a>
 
-> simple / grace / small
+> simple / grace / friendly
 
 <img src="./Screenshots/Anisina.png" />
 
 
 ## Update Log
+
+### Anisina V3.3 (2018-11-07) 
+
+- Support Mathjax
+
+### Anisina V3.2 (2018-07-16) 
+
+- Support [Valine](https://valine.js.org/) comment system
 
 ### Anisina V3.1 (2017-05-9)
 
@@ -147,7 +155,13 @@ You can easily get stared by modifying ```config.yml```
 
 1. use hexo command `hexo new page "Tags"`
 2. then open `yourblog/source` folder , find `Tags/index.md`, set `layout: tags`
-3. after use hexo cammand reset hexo `hexo clean && hexo g` , all done : )
+3. after use hexo command reset hexo `hexo clean && hexo g` , all done : )
+
+#### Create Categories page
+
+1. use hexo command `hexo new page "Categories"`
+2. then open `yourblog/source` folder, find `Categories/index.md`, set `layout: categories`
+3. after use hexo command reset hexo `hexo clean && hexo g`, all done :)
 
 
 #### 	cdn-url
